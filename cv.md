@@ -18,3 +18,13 @@ Hello! My name is Erbol, i am 16 years old. I want to become a computer programm
 My favourite subjects in school are mathematics, physics, and, of course,computer science. My hobby is computer games and programming.
 
 I think that the profession of programmer can give many opportunities. Computers are the most rapidly changing sphere of modern technology. And I think that the future is just filled with computers.
+
+---
+
+## Skills and Proficiency:
+
+- HTML5, CSS3
+- Git, GitHub
+- JavaScript Basics
+- VS Code
+- Adobe Photoshop, Figma ,Adobe Illustrator
