@@ -28,3 +28,22 @@ I think that the profession of programmer can give many opportunities. Computers
 - JavaScript Basics
 - VS Code
 - Adobe Photoshop, Figma ,Adobe Illustrator
+
+---
+
+## Code Example
+
+What value will be displayed?
+```javascript
+const food = ['🍕', '🍔', '🍟', '🌭']
+const info = { favouriteFood: food[0] }
+
+info.favouriteFood = '🥞'
+
+console.log(food)
+```
+1 - ['🍕', '🍔', '🍟', '🌭']
+<br />
+2 - ['🥞', '🍔', '🍟', '🌭']
+<br />
+3 - ['🥞', '🍕', '🍔', '🍟', '🌭']
