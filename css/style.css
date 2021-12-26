@@ -159,7 +159,7 @@ body {
 /* ABOUT MYSELF */
 
 .about-inner {
-    margin: 40px 125px 0;
+    margin: 40px 105px 0;
 }
 
 .about-title {
@@ -167,6 +167,8 @@ body {
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
+
+    margin: 0 0 5px;
 
     text-transform: uppercase;
 
