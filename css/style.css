@@ -1,0 +1,107 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+.container-all-elements {
+    margin: 50px 100px;
+}
+
+.container-inner {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* HEADER ----------------------------------------------------------*/
+
+.header-elements {
+    display: flex;
+    align-items: center;
+}
+
+.header-img {
+    width: 200px;
+    margin: 0 0 0 100px;
+}
+
+.header-blue-block {
+    width: 330px;
+    height: 60px;
+    position: absolute;
+
+    background-color: rgb(93, 93, 255);
+    transform: translate(470px, -20px);
+    z-index: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    animation: borderanimate1 1s infinite;
+}
+
+@keyframes borderanimate1 {
+    50% {
+        background-color: rgb(116, 116, 255);
+    }
+
+    100% {
+        background-color: rgb(93, 93, 255);
+    }
+}
+
+.header-yellow-block {
+    width: 330px;
+    height: 60px;
+    position: absolute;
+
+    background-color: rgb(252, 255, 98);
+    transform: translate(490px, 20px);
+    z-index: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    animation: borderanimate2 1s infinite;
+}
+
+@keyframes borderanimate2 {
+    50% {
+        background-color: rgb(253, 255, 121);
+    }
+
+    100% {
+        background-color: rgb(252, 255, 98);
+    }
+}
+
+.header-elements-text {
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.header-name-text {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+
+    color: #FFF;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-work {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    letter-spacing: 11px;
+    color: #FFF;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
