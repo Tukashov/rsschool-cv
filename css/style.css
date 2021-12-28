@@ -1,0 +1,364 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.container-all-elements {
+    margin: 50px 100px;
+}
+
+.container-inner {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 0 50px;
+}
+
+/* HEADER ----------------------------------------------------------*/
+
+.header-elements {
+    display: flex;
+    align-items: center;
+
+    background-image: url(../img/blockchain_pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-img {
+    width: 200px;
+    margin: 0 0 0 100px;
+
+    transform: translate(0, 40px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.header-img:hover {
+    transform: translate(0, 35px);
+    transition: 0.5s;
+}
+
+.header-blue-block {
+    width: 330px;
+    height: 60px;
+    position: absolute;
+
+    background-color: rgb(93, 93, 255);
+    transform: translate(470px, -20px);
+    z-index: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    animation: borderanimate1 1s infinite;
+}
+
+@keyframes borderanimate1 {
+    50% {
+        background-color: rgb(116, 116, 255);
+    }
+
+    100% {
+        background-color: rgb(93, 93, 255);
+    }
+}
+
+.header-yellow-block {
+    width: 330px;
+    height: 60px;
+    position: absolute;
+
+    background-color: rgb(252, 255, 98);
+    transform: translate(490px, 20px);
+    z-index: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    animation: borderanimate2 1s infinite;
+}
+
+@keyframes borderanimate2 {
+    50% {
+        background-color: rgb(253, 255, 121);
+    }
+
+    100% {
+        background-color: rgb(252, 255, 98);
+    }
+}
+
+.header-elements-text {
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.header-name-text {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+
+    color: #FFF;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-work {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    letter-spacing: 11px;
+    color: #FFF;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* CONTACTS  ----------------------------------------------------------*/
+
+.contacts {
+    background-color: rgb(93, 93, 255);
+    padding: 20px 0;
+
+    margin: 70px 0 0;
+}
+
+.contacts-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 105px;
+}
+
+.contact-icons-a {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-links {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contacts-links:hover {
+    text-shadow: 0px 0px 5px rgb(252, 255, 53);
+}
+
+/* ABOUT MYSELF ----------------------------------------------------------*/
+
+.about-inner {
+    margin: 40px 105px 0;
+}
+
+.about-title {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+
+    margin: 0 0 5px;
+
+    text-transform: uppercase;
+
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 15px rgb(252, 255, 53);
+}
+
+.about-text + .about-text {
+    margin-top: 10px;
+}
+
+/* SKILLS ----------------------------------------------------------*/
+
+.skills-inner {
+    margin: 30px 105px 0;
+}
+
+.skills-title {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+
+    margin: 0 0 5px;
+
+    text-transform: uppercase;
+
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.skills-language {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgb(93, 93, 255);
+    padding: 10px 20px;
+}
+
+.skills-language + .skills-language {
+    margin-top: 10px;
+}
+
+.skills-text-style {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.fab {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.fas {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* CODE EXAMPLE ----------------------------------------------------------*/
+
+.example-code-inner {
+    margin: 30px 105px 0;
+}
+
+.example-code-title {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+
+    margin: 0 0 5px;
+
+    text-transform: uppercase;
+
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.example-code-block {
+    width: 100%;
+    font-size: 16px;
+
+    margin: 0 auto;
+    padding: 30px;
+
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.const {
+    color: blue;
+}
+
+.peremen {
+    color: rgb(255, 0, 0);
+}
+
+.console {
+    color: rgb(255, 0, 212);
+}
+
+.log {
+    color: limegreen;
+}
+
+/* COURSES ------------------------------------------------------------*/
+
+.courses-inner {
+    margin: 30px 105px 0;
+}
+
+.courses-title {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+
+    margin: 0 0 5px;
+
+    text-transform: uppercase;
+
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.courses-flex {
+    display: flex;
+    align-items: center;
+}
+
+.fa-brain {
+    color: #000;
+    text-shadow: none;
+}
+
+.courses-flex-text {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+
+    color: #000;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+}
+
+.courses-flex-text a {
+    text-decoration: none;
+    color: rgb(116, 116, 255);
+}
+
+/* FOOTER -------------------------------------------------------------------*/
+
+.footer-elements-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px 105px 0;
+}
+
+.footer-elements-inner a {
+    text-decoration: none;
+}
+
+.github-footer {
+    font-size: 40px;
+    color: #000;
+}
+
+.footer-rss-logo {
+    width: 100px;
+    margin: 0 10px;
+}
