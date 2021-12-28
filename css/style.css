@@ -339,3 +339,26 @@ body {
     text-decoration: none;
     color: rgb(116, 116, 255);
 }
+
+/* FOOTER -------------------------------------------------------------------*/
+
+.footer-elements-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px 105px 0;
+}
+
+.footer-elements-inner a {
+    text-decoration: none;
+}
+
+.github-footer {
+    font-size: 40px;
+    color: #000;
+}
+
+.footer-rss-logo {
+    width: 100px;
+    margin: 0 10px;
+}
