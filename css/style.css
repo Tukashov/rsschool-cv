@@ -293,3 +293,49 @@ body {
 .log {
     color: limegreen;
 }
+
+/* COURSES ------------------------------------------------------------*/
+
+.courses-inner {
+    margin: 30px 105px 0;
+}
+
+.courses-title {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+
+    margin: 0 0 5px;
+
+    text-transform: uppercase;
+
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.courses-flex {
+    display: flex;
+    align-items: center;
+}
+
+.fa-brain {
+    color: #000;
+    text-shadow: none;
+}
+
+.courses-flex-text {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+
+    color: #000;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+}
+
+.courses-flex-text a {
+    text-decoration: none;
+    color: rgb(116, 116, 255);
+}
