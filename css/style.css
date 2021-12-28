@@ -275,6 +275,7 @@ body {
 
     background-color: rgb(219, 219, 219);
     border-radius: 10px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .const {
@@ -283,4 +284,12 @@ body {
 
 .peremen {
     color: rgb(255, 0, 0);
+}
+
+.console {
+    color: rgb(255, 0, 212);
+}
+
+.log {
+    color: limegreen;
 }
